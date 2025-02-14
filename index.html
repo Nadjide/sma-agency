@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sma Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Lien vers Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- EN-TÊTE (NAVBAR RESPONSIVE) -->
+  <nav class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 border-gray-200 shadow-md">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#accueil" class="flex items-center space-x-3">
+        <span class="self-center text-2xl font-semibold text-white">Sma Agency</span>
+      </a>
+      <!-- Bouton menu burger (mobile) -->
+      <button id="menu-toggle" class="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-white rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <span class="sr-only">Ouvrir le menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+      <!-- Menu principal -->
+      <div id="navbar-default" class="hidden w-full md:block md:w-auto">
+        <ul class="font-medium flex flex-col md:flex-row md:space-x-8 md:mt-0">
+          <li><a href="#accueil" class="block py-2 px-3 text-white hover:text-gray-200">Accueil</a></li>
+          <li><a href="#a-propos" class="block py-2 px-3 text-white hover:text-gray-200">À propos</a></li>
+          <li><a href="#contact" class="block py-2 px-3 text-white hover:text-gray-200">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECTION ACCUEIL -->
+  <section id="accueil" class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 py-16 text-center text-white">
+    <h1 class="text-4xl font-bold mb-4">Sma Agency</h1>
+    <p class="text-lg mb-6">Marketing & stratégie pour booster votre marque</p>
+    <a href="#services" class="bg-white text-pink-500 px-6 py-3 rounded font-semibold hover:bg-gray-200">
+        Découvrez nos services
+    </a>
+</section>
+
+  <!-- SECTION « VOTRE PARTENAIRE DE CROISSANCE » -->
+  <section id="a-propos" class="flex flex-wrap items-center justify-between gap-8 px-6 py-16">
+    <div class="w-full md:w-1/3">
+      <h2 class="text-2xl font-bold text-pink-500 mb-2">Votre partenaire de croissance</h2>
+      <h3 class="text-xl font-semibold mb-4">Expertise en marketing et data</h3>
+    </div>
+    <div class="w-full md:w-2/3">
+      <p class="text-gray-700 leading-relaxed">
+        Sma Agency propose des solutions marketing exceptionnelles, basées à Nice, France.
+        Nous sommes spécialisés en analyse de données, stratégie marketing, branding,
+        communication, création de flyers et montage vidéo. Notre équipe dévouée allie
+        créativité et analyse pour faire progresser votre marque. Que vous souhaitiez
+        renforcer votre présence de marque ou optimiser vos stratégies marketing, nous
+        sommes là pour vous accompagner vers la réussite.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION SERVICES (cartes) -->
+<section id="services" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-pink-500 mb-6 text-center">Nos Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Carte 1 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Data Analyse</h3>
+                <p class="text-gray-700">Exploitez vos données pour une prise de décision plus efficace.</p>
+            </div>
+            <!-- Carte 2 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie Marketing</h3>
+                <p class="text-gray-700">Élaborez une stratégie sur mesure pour atteindre vos objectifs.</p>
+            </div>
+            <!-- Carte 3 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie de Contenu</h3>
+                <p class="text-gray-700">Créez un contenu engageant et percutant pour votre audience.</p>
+            </div>
+            <!-- Carte 4 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Branding</h3>
+                <p class="text-gray-700">Construisez une identité de marque forte et cohérente.</p>
+            </div>
+            <!-- Carte 5 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Communication</h3>
+                <p class="text-gray-700">Optimisez votre communication pour toucher votre cible efficacement.</p>
+            </div>
+            <!-- Carte 6 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Flyer</h3>
+                <p class="text-gray-700">Création de supports imprimés pour booster votre visibilité.</p>
+            </div>
+            <!-- Carte 7 -->
+            <div class="bg-white rounded shadow p-6">
+                <h3 class="text-pink-500 font-bold text-xl mb-2">Montage Vidéo</h3>
+                <p class="text-gray-700">Réalisation de vidéos percutantes pour vos réseaux sociaux.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- SCRIPT JAVASCRIPT -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      var navbar = document.getElementById('navbar-default');
+      navbar.classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact" class="py-16 px-6 max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-8">Discutons de votre projet</h2>
+    <form class="flex flex-col space-y-6">
+      <div>
+        <label for="name" class="block font-semibold mb-2">Nom</label>
+        <input type="text" id="name" placeholder="Votre nom" class="w-full border border-gray-300 rounded p-2" required>
+      </div>
+      <div>
+        <label for="email" class="block font-semibold mb-2">Adresse e-mail</label>
+        <input type="email" id="email" placeholder="Votre adresse e-mail" class="w-full border border-gray-300 rounded p-2" required>
+      </div>
+      <div>
+        <label for="message" class="block font-semibold mb-2">Message</label>
+        <textarea id="message" rows="5" placeholder="Votre message" class="w-full border border-gray-300 rounded p-2"></textarea>
+      </div>
+      <button type="submit" class="bg-pink-400 text-white px-6 py-3 rounded font-semibold hover:bg-pink-600">
+        Envoyer
+      </button>
+    </form>
+  </section>
+
+  <!-- PIED DE PAGE -->
+  <footer class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center py-4">
+    <p class="mb-2">&copy; 2025 Sma Agency</p>
+    <p><a href="#" class="underline hover:text-gray-300">Politique de confidentialité</a> | <a href="#" class="underline hover:text-gray-300">Mentions légales</a></p>
+  </footer>
+
+</body>
+</html>
