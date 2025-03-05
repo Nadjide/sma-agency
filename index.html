@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" style="scroll-behavior: smooth;">
+
 <head>
   <meta charset="UTF-8" />
   <title>Sma Agency</title>
@@ -7,6 +8,7 @@
   <!-- Lien vers Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="font-sans text-gray-800">
 
   <!-- EN-TÊTE (NAVBAR RESPONSIVE) -->
@@ -16,7 +18,8 @@
         <span class="self-center text-2xl font-semibold text-white">Sma Agency</span>
       </a>
       <!-- Bouton menu burger (mobile) -->
-      <button id="menu-toggle" class="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-white rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+      <button id="menu-toggle"
+        class="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-white rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
         <span class="sr-only">Ouvrir le menu</span>
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -38,71 +41,106 @@
     <h1 class="text-4xl font-bold mb-4">Sma Agency</h1>
     <p class="text-lg mb-6">Marketing & stratégie pour booster votre marque</p>
     <a href="#services" class="bg-white text-pink-500 px-6 py-3 rounded font-semibold hover:bg-gray-200">
-        Découvrez nos services
+      Découvrez nos services
     </a>
-</section>
+  </section>
 
   <!-- SECTION « VOTRE PARTENAIRE DE CROISSANCE » -->
-  <section id="a-propos" class="flex flex-wrap items-center justify-between gap-8 px-6 py-16">
-    <div class="w-full md:w-1/3">
-      <h2 class="text-2xl font-bold text-pink-500 mb-2">Votre partenaire de croissance</h2>
-      <h3 class="text-xl font-semibold mb-4">Expertise en marketing et data</h3>
+  <section id="a-propos" class="flex flex-wrap items-center justify-between px-6 py-16 bg-gradient-to-r from-white to-gray-50">
+    <div class="w-full md:w-2/5 pr-8 border-r-4 border-pink-500">
+      <h2 class="text-3xl font-bold text-pink-500 mb-3">Votre partenaire de confiance</h2>
+      <h3 class="text-2xl font-semibold text-gray-800 mb-4">Expertise en marketing et data</h3>
     </div>
-    <div class="w-full md:w-2/3">
-      <p class="text-gray-700 leading-relaxed">
+    <div class="w-full md:w-3/5 pl-8">
+      <p class="text-gray-700 leading-relaxed text-lg">
         Sma Agency propose des solutions marketing exceptionnelles, basées à Nice, France.
         Nous sommes spécialisés en analyse de données, stratégie marketing, branding,
-        communication, création de flyers et montage vidéo. Notre équipe dévouée allie
-        créativité et analyse pour faire progresser votre marque. Que vous souhaitiez
-        renforcer votre présence de marque ou optimiser vos stratégies marketing, nous
-        sommes là pour vous accompagner vers la réussite.
+        communication, création de flyers et montage vidéo.
+      </p>
+      <p class="text-gray-700 leading-relaxed text-lg mt-4">
+        Notre équipe dévouée allie créativité et analyse pour faire progresser votre marque. 
+        Que vous souhaitiez renforcer votre présence de marque ou optimiser vos stratégies marketing, 
+        nous sommes là pour vous accompagner vers la réussite.
       </p>
     </div>
   </section>
 
   <!-- SECTION SERVICES (cartes) -->
-<section id="services" class="bg-gray-100 py-16 px-6">
+  <section id="services" class="bg-gray-100 py-16 px-6">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-2xl font-bold text-pink-500 mb-6 text-center">Nos Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Carte 1 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Data Analyse</h3>
-                <p class="text-gray-700">Exploitez vos données pour une prise de décision plus efficace.</p>
-            </div>
-            <!-- Carte 2 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie Marketing</h3>
-                <p class="text-gray-700">Élaborez une stratégie sur mesure pour atteindre vos objectifs.</p>
-            </div>
-            <!-- Carte 3 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie de Contenu</h3>
-                <p class="text-gray-700">Créez un contenu engageant et percutant pour votre audience.</p>
-            </div>
-            <!-- Carte 4 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Branding</h3>
-                <p class="text-gray-700">Construisez une identité de marque forte et cohérente.</p>
-            </div>
-            <!-- Carte 5 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Communication</h3>
-                <p class="text-gray-700">Optimisez votre communication pour toucher votre cible efficacement.</p>
-            </div>
-            <!-- Carte 6 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Flyer</h3>
-                <p class="text-gray-700">Création de supports imprimés pour booster votre visibilité.</p>
-            </div>
-            <!-- Carte 7 -->
-            <div class="bg-white rounded shadow p-6">
-                <h3 class="text-pink-500 font-bold text-xl mb-2">Montage Vidéo</h3>
-                <p class="text-gray-700">Réalisation de vidéos percutantes pour vos réseaux sociaux.</p>
-            </div>
+      <h2 class="text-2xl font-bold text-pink-500 mb-6 text-center">Nos Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Carte 1 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Data Analyse</h3>
+          <p class="text-gray-700">Exploitez vos données pour une prise de décision plus efficace.</p>
         </div>
+        <!-- Carte 2 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie Marketing</h3>
+          <p class="text-gray-700">Élaborez une stratégie sur mesure pour atteindre vos objectifs.</p>
+        </div>
+        <!-- Carte 3 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Stratégie de Contenu</h3>
+          <p class="text-gray-700">Créez un contenu engageant et percutant pour votre audience.</p>
+        </div>
+        <!-- Carte 4 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Branding</h3>
+          <p class="text-gray-700">Construisez une identité de marque forte et cohérente.</p>
+        </div>
+        <!-- Carte 5 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Communication</h3>
+          <p class="text-gray-700">Optimisez votre communication pour toucher votre cible efficacement.</p>
+        </div>
+        <!-- Carte 6 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Flyer</h3>
+          <p class="text-gray-700">Création de supports imprimés pour booster votre visibilité.</p>
+        </div>
+        <!-- Carte 7 -->
+        <div class="bg-white rounded shadow p-6 flex flex-col items-center text-center">
+          <svg class="w-12 h-12 text-pink-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+            </path>
+          </svg>
+          <h3 class="text-pink-500 font-bold text-xl mb-2">Montage Vidéo</h3>
+          <p class="text-gray-700">Réalisation de vidéos percutantes pour vos réseaux sociaux.</p>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!-- SCRIPT JAVASCRIPT -->
   <script>
@@ -122,11 +160,13 @@
       </div>
       <div>
         <label for="email" class="block font-semibold mb-2">Adresse e-mail</label>
-        <input type="email" id="email" placeholder="Votre adresse e-mail" class="w-full border border-gray-300 rounded p-2" required>
+        <input type="email" id="email" placeholder="Votre adresse e-mail"
+          class="w-full border border-gray-300 rounded p-2" required>
       </div>
       <div>
         <label for="message" class="block font-semibold mb-2">Message</label>
-        <textarea id="message" rows="5" placeholder="Votre message" class="w-full border border-gray-300 rounded p-2"></textarea>
+        <textarea id="message" rows="5" placeholder="Votre message"
+          class="w-full border border-gray-300 rounded p-2"></textarea>
       </div>
       <button type="submit" class="bg-pink-400 text-white px-6 py-3 rounded font-semibold hover:bg-pink-600">
         Envoyer
@@ -137,8 +177,10 @@
   <!-- PIED DE PAGE -->
   <footer class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-center py-4">
     <p class="mb-2">&copy; 2025 Sma Agency</p>
-    <p><a href="#" class="underline hover:text-gray-300">Politique de confidentialité</a> | <a href="#" class="underline hover:text-gray-300">Mentions légales</a></p>
+    <p><a href="#" class="underline hover:text-gray-300">Politique de confidentialité</a> | <a href="#"
+        class="underline hover:text-gray-300">Mentions légales</a></p>
   </footer>
 
 </body>
+
 </html>
